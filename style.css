@@ -1,0 +1,13 @@
+.menu {
+    text-align: center;
+    background-color: #00070a;
+    color: rgb(247, 244, 244);
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body{
+    background-color: aqua;
+    color: #00070a
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js"defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demitir Funcionario</h1>
+    <div class="menu">
+        <a href="cadastro_fun.html">Cadastrar Funcionario</a> |
+         <a href="alterar_salario.html">Alterar Salario</a> |
+         <a href="demitir_funcionario.html">Demitir Funcionario</a> |
+         <a href="listar_funcionario.html">Listar Funcionario</a> |
+    </div>
+
+    <p>CPF: <input type="text" id="cpfD"> <button onclick="buscar_funcionariodemitir()">Buscar</button></p>
+    <p>Nome: <input type="text" id="nomeD"></p>
+    <p>Função: <input type="text" id="funcaoD"></p>
+    <p>Salario: <input type="number" id="salarioD"> 
+    <button onclick="demitir()">Demitir Funcionario</button>
+
+
+</body>
+</html>
